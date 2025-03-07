@@ -38,7 +38,7 @@ int main() {
 
 ```
 
-##  ExperiencZe
+##  Experience
 
 - in development...
 ##  Education
