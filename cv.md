@@ -2,7 +2,7 @@
 
 # Skosariev Zakhar
 
-![Profile Picture](images/photo.jpg)
+![Profile Picture](pictures/photo.jpg)
 
 ## Contacts
 
