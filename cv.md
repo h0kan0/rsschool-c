@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 # Skosariev Zakhar
 
 ![Profile Picture](images/photo.jpg)
@@ -16,14 +16,29 @@
 
 ## Code Example
 
-```javascript
-function reverseString(str) {
-  return str.split('').reverse().join('');
+```cpp
+#include <stdio.h>
+
+int main() {
+    double numerator, denominator, S2;
+    double x = 2.5;
+    double y = 3.1;
+    double z = 0.41;
+    numerator = 1.2 * x + 3.4 * y - 12 * z - (y / z); // Обчислення чисельника
+    denominator = 2 * (x * y / z) + 15 * y;// Обчисленя знаменника
+    if (denominator == 0) {// Перевірка на нуль у знаменнику
+        printf("Error: Denominator is zero.\n");
+        return 1;
+    }
+    // Обчислення результату
+    S2 = numerator / denominator;
+    printf("S2 = %lf\n", S2);// Виведення результату
+    return 0;
 }
-console.log(reverseString('hello')); // Output: 'olleh'
+
 ```
 
-##  Experience
+##  ExperiencZe
 
 - in development...
 ##  Education
@@ -33,5 +48,4 @@ console.log(reverseString('hello')); // Output: 'olleh'
 ## English Level
 
 - B1
->>>>>>> 2645f12 (Deploy CV to GitHub Pages)
 
