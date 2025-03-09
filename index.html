@@ -2,8 +2,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Zakhar Skosariev - CV</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    hello world
+    <div class="container">
+        <header class="header">
+            <h1 class="name">Skosariev Zakhar</h1>
+            <img class="profile-pic" src="pictures/photo.jpg">
+        </header>
+        <section class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Email: <a href="mailto:zskosarev@gmail.com">zskosarev@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/h0kan0" target="_blank">h0kan0</a></li>
+                <li>Discord: hoka#6079</li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <p>In development...</p>
+        </section>
+        <section class="code-example">
+            <h2>Code Example</h2>
+            <pre><code>
+#include <stdio.h>
+
+int main() {
+    double numerator, denominator, S2;
+    double x = 2.5;
+    double y = 3.1;
+    double z = 0.41;
+    numerator = 1.2 * x + 3.4 * y - 12 * z - (y / z); // Обчислення чисельника
+    denominator = 2 * (x * y / z) + 15 * y;// Обчисленя знаменника
+    if (denominator == 0) {// Перевірка на нуль у знаменнику
+        printf("Error: Denominator is zero.\n");
+        return 1;
+    }
+    // Обчислення результату
+    S2 = numerator / denominator;
+    printf("S2 = %lf\n", S2);// Виведення результату
+    return 0;
+}
+            </code></pre>
+        
+        <div class="experience">
+            <h2>Experience</h2>
+            <p>In development...</p>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <p>In development...</p>
+        
+        <div class="english-level">
+            <h2>English Level</h2>
+            <p>B1</p>
+        
+    </div>
 </body>
+</html>
