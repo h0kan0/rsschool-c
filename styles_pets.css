@@ -1,0 +1,305 @@
+
+body {
+    background-size: 1280px; /* Задаем размеры изображения */
+    background-color: white; /* Белый фон, который будет виден за пределами изображения */
+    margin: 0;
+}
+header {
+    color: #545454;
+    display: flex;
+    width: 1280px;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+header .header-container{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+
+    margin-top: 30px;
+    margin-left: 40px;
+}
+header .header-container .logo{
+    position: absolute;
+    line-height: 110%;
+    height: 60px;
+}
+header .header-container .logo .header {
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+}
+
+header .header-container .logo p {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: 17px;
+    margin-left: 3px;
+}
+header .header-container nav{
+    position: absolute;
+    height: 27px;
+    margin-top: 18px;
+    margin-left: 757px;
+    white-space: nowrap;
+}
+header .header-container nav ul {
+    font-family: Arial;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+header .header-container nav ul li {
+    margin-right: 35px
+}
+
+header .header-container nav ul li a {
+    color: #545454;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header .header-container nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f1cdb3; 
+    text-underline-offset: 5px;
+}
+.pets {
+    background-color: #F6F6F6;
+    width: 1280px;
+    height: 1342px;
+    display: flex;
+}
+.pets .container{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 1200px;
+    height: 930px;
+    display: flex;
+
+}
+.pets .container .header1 {
+    position: absolute;
+    padding-top: 0;
+    margin-left: 400px;
+    line-height: 130%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em; 
+}
+.pets .container .card{
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px; 
+
+}
+.pets .container{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 1200px;
+    height: 697px;
+    display: flex;
+
+}  
+.pets .container .card{
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px; 
+
+}
+.pets .container .card img {
+    width: 100%;
+    height: 270px;
+}
+.pets .container .card p {
+    font-family: Georgia, 'Times    New Roman', serif;
+    color: #545454;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+.pets .container .card .button_secondary {
+    width: 180px;
+    height: 47px;
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: 400;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    letter-spacing: 0.06em;
+    display: flex;
+    margin-left: 41.5px;
+    margin-top: 28px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pets .navigation{
+    position: absolute;
+    margin-top: 1190px;
+    margin-left: 470px;
+    width: 340px;
+    height: 52px;
+}
+.pets .navigation .button_arrow {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border: 1.5px solid #f4b183;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    
+}
+footer{
+    background-image: url(pictures/footer-background.png);
+    width: 1280px;
+    height: 350px;
+    display: flex;
+}
+footer .Footer-content{
+    width: 1200px;
+    height: 310px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+footer .Footer-content .Contacts{
+    width: 280px;    
+    height: 244px;
+    margin-top: 16px;
+    display: flex;
+}
+footer .Footer-content .Contacts .Title{
+    line-height: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: white;
+}
+footer .Footer-content .Contacts .Mail{
+    width: 251px;
+    height: 32px;
+    margin-top: 130px;
+    position: absolute;
+    display: flex;
+}
+footer .Footer-content .Contacts .Mail img{
+    margin-top: 3px;
+    height: 26px;
+    width: 40px;   
+}
+footer .Footer-content .Contacts .Mail .Text{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+footer .Footer-content .Contacts .Phone{
+    width: 241px;
+    height: 32px;
+    margin-top: 202px;
+    position: absolute;
+    display: flex;
+}
+footer .Footer-content .Contacts .Phone img{
+
+    height: 32px;
+    width: 40px;   
+}
+footer .Footer-content .Contacts .Phone .Text{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+footer .Footer-content .Locations{
+    position: absolute;
+    margin-left: 438px;
+    width: 302px;    
+    height: 234px;
+    margin-top: 16px;
+    display: flex;
+}
+footer .Footer-content .Locations .Title{
+    line-height: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: white;
+}
+footer .Footer-content .Locations .Boston{
+    width: 305px;
+    height: 46px;
+    margin-top: 124px;
+    position: absolute;
+    display: flex;
+}
+footer .Footer-content .Locations img{
+    margin-top: 6px;
+    height: 32px;
+    width: 22px;   
+}
+footer .Footer-content .Locations .Boston .Text{
+    position: absolute;
+    margin-left: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+footer .Footer-content .Locations .London{
+    width: 302px;
+    height: 32px;
+    margin-top: 202px;
+    position: absolute;
+    display: flex;
+}
+footer .Footer-content .Locations .London .Text{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+footer .Footer-content .footerimg{
+    position: absolute;
+    margin-left: 900px;
+    width: 300px; 
+    height: 310px;
+}
